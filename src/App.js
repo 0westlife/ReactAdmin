@@ -1,3 +1,6 @@
+/**
+ * 应用的根组件
+ * */
 import React from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./pages/Login";
@@ -6,7 +9,7 @@ export default function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/login" componnet={Login} />  
+          <Route path="/login" componnet={Login} />
         </Routes>
       </Router>
     </>
